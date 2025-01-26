@@ -9,6 +9,7 @@ test-coverage = 0.5  # Minimum 50% test coverage
 [contracts]
 payment-system = { path = "contracts/payment-system.clar" }
 token-management = { path = "contracts/token-management.clar" }
+commission-tracking = { path = "contracts/commission-tracking.clar" }
 
 [deployment]
 strategy = "devnet"
