@@ -1,0 +1,17 @@
+[project]
+name = "blockchain-payment-system"
+description = "Secure blockchain-based payment system"
+version = "0.1.0"
+
+[contract-requirements]
+test-coverage = 0.5  # Minimum 50% test coverage
+
+[contracts]
+payment-system = { path = "contracts/payment-system.clar" }
+token-management = { path = "contracts/token-management.clar" }
+
+[deployment]
+strategy = "devnet"
+
+[dependencies]
+stacks-core = { version = "2.4.0" }
